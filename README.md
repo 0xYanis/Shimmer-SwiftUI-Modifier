@@ -15,6 +15,11 @@ ShimmerEffect is a lightweight library that provides a custom modifier for Swift
  </body>
 </html>
 
+## Requirements
+
+- iOS 15
+- Swift 5.5
+
 ## Installation
 
 You can install Shimmer-SwiftUI-Modifier using Swift Package Manager. In Xcode, go to File > Swift Packages > Add Package Dependency and enter the repository URL.
