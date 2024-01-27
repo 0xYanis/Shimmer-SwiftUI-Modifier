@@ -33,7 +33,7 @@ struct ContentView: View {
 }
 ```
 
-You can customize the shimmer effect by providing parameters to the modifier:
+You can customize the shimmer effect by providing parameters to the `shimmerEffect` modifier:
 
 ```swift
 Text("Hello, Customized Shimmer!")
@@ -42,7 +42,7 @@ Text("Hello, Customized Shimmer!")
 
 ## License
 
-ShimmerEffect is available under the MIT license. See the [LICENSE](https://github.com/0xYanis/Shimmer-SwiftUI-Modifier/LICENSE.md) file for more info.
+ShimmerEffect is available under the MIT license. See the [LICENSE](https://github.com/0xYanis/Shimmer-SwiftUI-Modifier/blob/main/LICENSE) file for more info.
 
 ## Contributions
 
@@ -50,6 +50,6 @@ Contributions are welcome! Feel free to submit pull requests, create issues, or 
 
 ## Credits
 
-Shimmer-SwiftUI-Modifier is maintained by [0xYanis]. 
+ShimmerEffect is maintained by [0xYanis]. 
 
 Enjoy using the library and happy shimmering!
