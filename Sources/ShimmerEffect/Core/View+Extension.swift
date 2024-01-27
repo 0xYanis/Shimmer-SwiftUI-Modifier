@@ -31,5 +31,20 @@ public extension View {
             cornerRadius: cornerRadius)
         )
     }
+    
+    /// Applies a simple shimmer effect to the view.
+    ///
+    /// - Parameters:
+    ///   - isActive: A flag indicating whether the shimmer effect is active.
+    ///
+    /// - Returns: A view with the applied shimmer effect.
+    func shimmer(_ isActive: Bool) -> some View {
+        modifier(ShimmerModifier(
+            isActive: isActive,
+            speed: 1,
+            colors: [],
+            cornerRadius: 5)
+        )
+    }
 }
 
