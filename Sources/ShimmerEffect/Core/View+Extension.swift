@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(iOS 15.0, *)
-extension View {
+public extension View {
     /// Applies a shimmer effect to the view.
     ///
     /// - Parameters:
@@ -18,7 +18,7 @@ extension View {
     ///   - cornerRadius: The corner radius of the shimmering view.
     ///
     /// - Returns: A view with the applied shimmer effect.
-    public func shimmerEffect(
+    func shimmerEffect(
         isActive: Bool,
         speed: CGFloat = 1,
         colors: [Color] = [],
