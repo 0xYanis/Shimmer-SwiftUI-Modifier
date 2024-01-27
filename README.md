@@ -7,6 +7,14 @@ ShimmerEffect is a lightweight library that provides a custom modifier for Swift
 - Easily add shimmer effect to any SwiftUI view.
 - Customizable shimmer animation speed, gradient colors, and direction.
 
+<html>
+ <body>
+  <p>
+    <img src="imgs/img1.png" width="200">
+  </p>
+ </body>
+</html>
+
 ## Installation
 
 You can install Shimmer-SwiftUI-Modifier using Swift Package Manager. In Xcode, go to File > Swift Packages > Add Package Dependency and enter the repository URL.
